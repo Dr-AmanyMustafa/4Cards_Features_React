@@ -1,0 +1,191 @@
+  .cyan{
+    border-top: 4px solid hsl(180, 62%, 55%);
+    display: grid;
+    gap: 1.7em;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 7px 18px rgba(97, 98, 158, 0.3);
+    position: relative;
+    transform: translateY(-20px);
+  }
+  .red{
+    border-top: 4px solid hsl(0, 78%, 62%);
+    display: grid;
+    gap: 1.7em;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 7px 18px rgba(97, 98, 158, 0.3);
+    position: relative;
+    transform: translateY(-20px);
+  }
+  .orange{
+    border-top: 4px solid hsl(34, 97%, 64%);
+    display: grid;
+    gap: 1.7em;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 7px 18px rgba(97, 98, 158, 0.3);
+    position: relative;
+    transform: translateY(-20px);
+  }
+  .blue{
+    border-top: 4px solid hsl(212, 86%, 64%);
+    display: grid;
+    gap: 1.7em;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 7px 18px rgba(97, 98, 158, 0.3);
+    position: relative;
+    transform: translateY(-20px);
+  }
+  #card_title {
+    color: hsl(234, 12%, 34%);
+    font-size: 1.2rem;
+    line-height: 1;
+    margin-bottom: -30px;
+  }
+  #card_paragraph {
+    color: hsl(229, 6%, 66%);
+    font-size: .8rem;
+    line-height: 1.7;
+  }
+  #card_img {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+  }
+  @media (min-width: 320px){
+    .cyan {
+      width: 70%;
+      margin:  40px 40px -20px;
+      padding: 0px 10px 50px 20px; 
+    }
+    #card_title{
+    margin-top: 20px;
+    font-size: .9rem;
+    }
+    #card_paragraph{
+    font-size: .5rem;
+    }
+    #card_img{
+      right: 15px;
+      bottom: 10px;
+      height: 40px;
+    }
+    .red {
+      width: 70%;
+      margin:  40px 40px -20px;
+      padding: 0px 10px 50px 20px;
+    }
+    .orange {
+      width: 70%;
+      margin:  40px 40px -20px;
+      padding: 0px 10px 50px 20px;
+    }
+    .blue {
+      width: 70%;
+      margin:  40px 40px -20px;
+      padding: 0px 10px 50px 20px;
+    }
+  }
+  @media (min-width: 960px){
+    #card_title{
+      margin-top: 20px;
+      font-size: 1rem;
+      }
+      #card_paragraph{
+      font-size: .7rem;
+      }
+      #card_img{
+        right: 30px;
+        bottom: 10px;
+        height: 50px;
+      }
+    .cyan {
+      width: 15%;
+      margin:  210px 80px 20px;
+      padding: 10px 60px 90px 40px;
+    }
+    .red {
+      width: 15%;
+      margin:  -380px 360px 20px;
+      padding: 10px 60px 90px 40px;
+    }
+    .orange {
+      width: 15%;
+      margin:  30px 360px 20px;
+      padding: 10px 60px 80px 40px;
+    }
+    .blue {
+      width: 15%;
+      margin:  -280px 640px 20px;
+      padding: 10px 60px 70px 40px;
+  }
+}
+  @media (min-width: 1024px){
+    .cyan {
+      width: 15%;
+      margin:  210px 80px 20px;
+      padding: 10px 60px 90px 40px;
+    }
+    .red {
+      width: 15%;
+      margin:  -380px 390px 20px;
+      padding: 10px 60px 90px 40px;
+    }
+    .orange {
+      width: 15%;
+      margin:  30px 390px 20px;
+      padding: 10px 60px 90px 40px;
+    }
+    .blue {
+      width: 15%;
+      margin:  -270px 690px 20px;
+      padding: 10px 60px 70px 40px;
+  }
+}
+
+  @media (min-width: 1200px){
+    .cyan {
+      width: 15%;
+      margin:  210px 130px 20px;
+      padding: 10px 60px 90px 40px;
+    }
+    .red {
+      width: 15%;
+      margin:  -380px 460px 20px;
+      padding: 10px 60px 90px 40px;
+    }
+    .orange {
+      width: 15%;
+      margin:  30px 460px 20px;
+      padding: 10px 60px 90px 40px;
+    }
+    .blue {
+      width: 15%;
+      margin:  -270px 780px 20px;
+      padding: 10px 60px 80px
+    }
+  }
+  @media (min-width: 1400px){
+    .cyan {
+      width: 15%;
+      margin:  210px 190px 20px;
+      padding: 10px 60px 90px 40px;
+    }
+    .red {
+      width: 15%;
+      margin:  -380px 550px 20px;
+      padding: 10px 60px 90px 40px;
+    }
+    .orange {
+      width: 15%;
+      margin:  30px 550px 20px;
+      padding: 10px 60px 90px 40px;
+    }
+    .blue {
+      width: 15%;
+      margin:  -275px 900px 20px;
+      padding: 10px 60px 90px 40px;
+    }
+  }
